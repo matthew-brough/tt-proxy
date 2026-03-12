@@ -1,5 +1,3 @@
-import { KeyObject } from "node:crypto";
-
 const UPSTREAMS: Record<string, string> = {
 	main: "http://server.tycoon.community:30120",
 	beta: "http://server.tycoon.community:30125",
